@@ -18,3 +18,120 @@
 .div3{
     background-color: aqua;
 }
+
+
+/* Navbar container */
+.navbar {
+    background-color: coral;
+    overflow: hidden;   
+}
+
+ 
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ 
+.navbar ul li {
+    float: left;
+}
+
+ 
+.navbar ul li a {
+    display:block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.navbar::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* Hover effect */
+.navbar ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Navbar1 container */
+.navbar1 {
+    background-color:brown;
+}
+.navbar1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ 
+.navbar1 ul li {
+    display: inline;  /* Display  horizontally */
+}
+
+ 
+.navbar1 ul li a {
+    display: inline-block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.navbar1::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* Hover effect */
+.navbar1 ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* float start  */
+.float{
+    border: 1px solid black;
+    text-align: center;
+}
+.float-header
+{
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    background-color: cadetblue;
+}
+.float-collapse1{
+    border: 1px solid black;
+    float: left;
+    width: 80%;
+    height: 200px;
+    color: white;
+    background-color: skyblue;
+}
+.float-collapse2{
+    border: 1px solid black;
+    float: right;
+    width: 20%;
+    height: 200px;
+    color: yellow;
+    background-color: darkgreen;
+}
+.float-footer{
+    border: 1px solid black;
+    text-align: center;
+    float: inline-start;
+    width: 100%;
+    height: 50px;
+    font-weight: 700;
+    line-height: 3;
+    color: whitesmoke;
+    background-color: salmon;
+}
+/* div+float  design ends here */
+
+ 
+

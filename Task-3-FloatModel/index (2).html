@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display</title>
+    <style>
+      .navbar {
+        background-color: green;
+        padding: 10px;
+      }
+      .menu {
+        margin: 0;
+        padding: 10px;
+        list-style-type: none;
+        background-color: red;
+      }
+
+      .menu::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .menu-item {
+        background-color: yellow;
+        margin-top: 2px;
+        float: left;
+      }
+      .item-1 {
+      }
+      .item-2 {
+      }
+      .item-3 {
+      }
+      .item-4 {
+      }
+
+      .clear {
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Menu -->
+    <nav class="navbar">
+      <ul class="menu">
+        <li class="menu-item item-1">Home</li>
+        <li class="menu-item item-2">About</li>
+        <li class="menu-item item-3">Contact</li>
+        <li class="menu-item item-4">Pages</li>
+        <!-- <span class="clear"></span> -->
+      </ul>
+    </nav>
+  </body>
+</html>
